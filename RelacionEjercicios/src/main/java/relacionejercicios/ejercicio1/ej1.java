@@ -1,4 +1,8 @@
-package ficherostexto;
+/*
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+ * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
+ */
+package relacionejercicios.ejercicio1;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
@@ -6,23 +10,27 @@ import java.io.IOException;
 
 /**
  *
- * @author JCarlos
+ * @author miguel
  */
-public class EscribirFicheroTexto {
+public class ej1 {
 
+    /**
+     * @param args the command line arguments
+     */
     public static void main(String[] args) {
-        // Fichero a crear. Ruta relativa a la carpeta raíz del proyecto
+        // TODO code application logic here
+
         String idFichero = "array.txt";
         String tmp;
-        
         // Array a escribir
-        int matrizNumeros[][] = {{1, 2, 3, 4, 5}, {6, 7, 8, 9, 10}, {11, 12, 13, 14, 15}};
+        int matrizNumeros[][] = {{100, 101,102, 103}, {200, 201, 202, 203},
+            {300, 301, 302, 303}, {400,401,402,403}};
 
         // Si se utiliza el constructor FileWriter(idFichero, true) entonces se anexa información
         // al final del fichero idFichero
         // Estructura try-with-resources. Instancia el objeto con el fichero a escribir
         // y se encarga de cerrar el recurso "flujo" una vez finalizadas las operaciones
-        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
+        try ( BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
             for (int i = 0; i < matrizNumeros.length; i++) {
                 for (int j = 0; j < matrizNumeros[i].length; j++) {
                     // Obtengo en un String el elemento int de la matriz
@@ -31,8 +39,9 @@ public class EscribirFicheroTexto {
                     if (j == matrizNumeros[i].length - 1) {
                         // Usamos metodo write() para escribir en el buffer
                         flujo.write(tmp);
-                    }else{
-                        flujo.write(tmp + ",");
+                        
+                    } else {
+                        flujo.write(tmp + "\t");
                     }
                 }
 
@@ -47,4 +56,5 @@ public class EscribirFicheroTexto {
         }
 
     }
+
 }
