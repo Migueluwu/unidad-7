@@ -96,7 +96,7 @@ public class Profesor {
 
     @Override
     public String toString() {
-        return "Profesor{" + "nombre=" + nombre + ", dni=" + dni + ", puesto=" + puesto + ", telefono=" + telefono + ", fechaInicio=" + fechaInicio + ", fechaFin=" + fechaFin + ", evaluador=" + evaluador + ", coordinador=" + coordinador + '}';
+        return "Profesor{" + "nombre=" + nombre + ", dni=" + dni + ", puesto=" + puesto + ", telefono=" + telefono + ", fechaInicio=" + fechaInicio + ", fechaFin=" + fechaFin + ", evaluador=" + evaluador + ", coordinador=" + coordinador + "} \n";
     }
     
 }
