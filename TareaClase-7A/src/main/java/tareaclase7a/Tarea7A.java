@@ -37,7 +37,8 @@ public class Tarea7A {
         rellenarFicheroMap(mapAsignaturaProfesores);
         rellenarFicheroProfesores(listaProfesores);
         // Busca en la lista si hay alguien que se llame así
-        System.out.println((Utils.buscarPorNombre(listaProfesores, "Maud Brigitte Marie"))?"En la lista hay alguien que se llama así":"En la lista no hay nadie que se llame así");
+        System.out.println((Utils.buscarPorNombre(listaProfesores,
+                "Maud Brigitte Marie"))?"En la lista hay alguien que se llama así":"En la lista no hay nadie que se llame así");
         System.out.println("---------------------------------------------------------------------------------");
         // Cuenta cuantos coordinadores hay en la lista de esa asignatura
         System.out.println("el numero de coordinadores que hay de esta asignatura es "+ Utils.contarCoordinadoresPorAsignatura(listaProfesores, "Matemáticas P.E.S."));
@@ -60,8 +61,9 @@ public class Tarea7A {
             while (datosFichero.hasNextLine()) {
                 linea = datosFichero.nextLine();
                 tokens = linea.split(",");
-                listaProfesores.add(new Profesor(tokens[0].concat(tokens[1]).substring(1,(tokens[0].concat(tokens[1])).length()-1), tokens[2], tokens[3],
-                        fechaFormateada(tokens[4]), fechaFormateada(tokens[5]),
+                listaProfesores.add(new Profesor(
+                        tokens[0].concat(tokens[1]).substring(1,(tokens[0].concat(tokens[1])).length()-1),
+                        tokens[2], tokens[3],fechaFormateada(tokens[4]), fechaFormateada(tokens[5]),
                         tokens[6], devolverBooleano(tokens[7]), devolverBooleano(tokens[8])));
 
             }
