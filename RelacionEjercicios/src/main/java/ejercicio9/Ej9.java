@@ -4,13 +4,12 @@
  */
 package ejercicio9;
 
-import ejercicio7.Deportivo;
-import static ejercicio7.Ej7.ordenarPorMarca;
-import ejercicio7.Furgoneta;
-import ejercicio7.Turismo;
-import ejercicio7.Vehiculo;
+
+import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileNotFoundException;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
@@ -25,30 +24,30 @@ public class Ej9 {
      */
     public static void main(String[] args) throws FileNotFoundException {
         // TODO code application logic here
-        String idFichero1 = "Deportivo.txt";
-        String idFichero2 = "Turismo.txt";
-        String idFichero3 = "Furgoneta.txt";
+        String idFichero1 = "Turismo.csv";
+        String idFichero2 = "Deportivo.csv";
+        String idFichero3 = "Furgoneta.csv";
 
+        
         String idFichero = "ejercicio4.txt";
-        System.out.println("Leyendo el fichero: " + idFichero);
-        ArrayList<String> listaVehiculos = new ArrayList<>();
-        ArrayList<Deportivo> listaDeportivo = new ArrayList<>();
-        ArrayList<Turismo> listaTurismo = new ArrayList<>();
-        ArrayList<Furgoneta> listaFurgoneta = new ArrayList<>();
-        System.out.println(listaTurismo);
-        System.out.println("------------------");
-        System.out.println(listaDeportivo);
-        System.out.println("------------------");
-        System.out.println(listaFurgoneta);
-
+               
+        ArrayList<Vehiculo> listaTurismo = new ArrayList<>();
+        ArrayList<Vehiculo> listaDeportivo = new ArrayList<>();
+        ArrayList<Vehiculo> listaFurgoneta = new ArrayList<>();
+        
+        leerCSV4(idFichero, listaTurismo, listaDeportivo, listaFurgoneta);
+        escribirTipoVehiculos(listaTurismo, idFichero1);
+        escribirTipoVehiculos(listaDeportivo, idFichero2);
+        escribirTipoVehiculos(listaFurgoneta, idFichero3);        
     }
-
-    private static void leerCSVVehiculos(String idFichero,ArrayList<Vehiculo>listaVehiculos,
-            ArrayList<Turismo> listaTurismo,ArrayList<Deportivo> listaDeportivo,
-            ArrayList<Furgoneta> listaFurgoneta) throws FileNotFoundException {
+    
+    private static void leerCSV4(String idFichero, ArrayList<Vehiculo> listaTurismo,
+            ArrayList<Vehiculo> listaDeportivo, ArrayList<Vehiculo> listaFurgoneta)
+            throws FileNotFoundException {
         String linea;
         String[] tokens;
-
+        ArrayList<String> listaVehiculos = new ArrayList<>();
+        System.out.println("Leyendo el fichero: " + idFichero); 
         try ( Scanner datosFichero = new Scanner(new File(idFichero), "UTF-8")) {
             while (datosFichero.hasNextLine()) {
                 linea = datosFichero.nextLine();
@@ -68,9 +67,36 @@ public class Ej9 {
                     listaFurgoneta.add(
                             new Furgoneta(Integer.parseInt(tokens[3]), tokens[0], tokens[1], tokens[2]));
                 }
-
+                
             }
-
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
         }
-
     }
+    
+    private static void escribirTipoVehiculos (ArrayList<Vehiculo>listaVehiculo, String idFichero){
+        try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
+            for (int i = 0; i <listaVehiculo.size() ; i++) {
+               flujo.write(listaVehiculo.get(i).getMatricula()+";"
+                       +listaVehiculo.get(i).getMarca()+";"+
+                       listaVehiculo.get(i).getColor()+";");//+listaVehiculo.get(i).getCilindradas());
+               if(listaVehiculo.get(i)instanceof Turismo){
+                   flujo.write(((Turismo)listaVehiculo.get(i)).getCilindradas());
+               }else if(listaVehiculo.get(i)instanceof Deportivo){
+                   flujo.write(((Deportivo)listaVehiculo.get(i)).getPuertas());
+               }else if(listaVehiculo.get(i)instanceof Furgoneta){
+                   flujo.write(((Furgoneta)listaVehiculo.get(i)).getAsientos());
+               }
+
+                
+                flujo.newLine();
+            }
+            flujo.flush();
+            System.out.println("Fichero " + idFichero + " creado correctamente.");
+        } catch (IOException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+    
+   
+}

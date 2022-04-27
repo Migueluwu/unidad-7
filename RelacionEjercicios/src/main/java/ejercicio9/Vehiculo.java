@@ -1,6 +1,7 @@
 
-package ejercicio7;
+package ejercicio9;
 
+import ejercicio7.*;
 import ejercicio4.*;
 import java.util.Random;
 
