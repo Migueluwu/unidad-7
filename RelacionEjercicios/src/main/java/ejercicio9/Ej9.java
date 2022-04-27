@@ -77,15 +77,18 @@ public class Ej9 {
     private static void escribirTipoVehiculos (ArrayList<Vehiculo>listaVehiculo, String idFichero){
         try (BufferedWriter flujo = new BufferedWriter(new FileWriter(idFichero))) {
             for (int i = 0; i <listaVehiculo.size() ; i++) {
-               flujo.write(listaVehiculo.get(i).getMatricula()+";"
-                       +listaVehiculo.get(i).getMarca()+";"+
-                       listaVehiculo.get(i).getColor()+";");//+listaVehiculo.get(i).getCilindradas());
                if(listaVehiculo.get(i)instanceof Turismo){
-                   flujo.write(((Turismo)listaVehiculo.get(i)).getCilindradas());
+                   flujo.write(listaVehiculo.get(i).getMatricula()+";"
+                       +listaVehiculo.get(i).getMarca()+";"+
+                       listaVehiculo.get(i).getColor()+";"+((Turismo)listaVehiculo.get(i)).getCilindradas());
                }else if(listaVehiculo.get(i)instanceof Deportivo){
-                   flujo.write(((Deportivo)listaVehiculo.get(i)).getPuertas());
+                   flujo.write(listaVehiculo.get(i).getMatricula()+";"
+                       +listaVehiculo.get(i).getMarca()+";"+
+                       listaVehiculo.get(i).getColor()+";"+((Deportivo)listaVehiculo.get(i)).getPuertas());
                }else if(listaVehiculo.get(i)instanceof Furgoneta){
-                   flujo.write(((Furgoneta)listaVehiculo.get(i)).getAsientos());
+                   flujo.write(listaVehiculo.get(i).getMatricula()+";"
+                       +listaVehiculo.get(i).getMarca()+";"+
+                       listaVehiculo.get(i).getColor()+";"+((Furgoneta)listaVehiculo.get(i)).getAsientos());
                }
 
                 
