@@ -60,6 +60,8 @@ public class Ej7 {
     public static void ordenarPorMarca(ArrayList<Vehiculo> lista) {
         Collections.sort(lista,
                 (Vehiculo v1, Vehiculo v2) -> v1.getMarca().compareTo(v2.getMarca()));
+
+        
     }
 
 }

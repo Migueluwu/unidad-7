@@ -15,8 +15,10 @@ import java.time.format.DateTimeFormatter;
 import java.time.temporal.ChronoUnit;
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 import java.util.Scanner;
+import java.util.stream.Collectors;
 
 /**
  *
@@ -28,7 +30,7 @@ public class Tarea7A {
         String idFichero = "RelPerCen.csv";
         ArrayList<Profesor> listaProfesores = new ArrayList<>();
         leerFichero(idFichero, listaProfesores);
-        System.out.println(listaProfesores.toString());
+        listaProfesores.stream().forEach(System.out::println);
         System.out.println("Numero de profesores: " + listaProfesores.size());
         System.out.println("---------------------------------------------------------------------------------");
         HashMap<String, Integer> mapAsignaturaProfesores = new HashMap<>();
@@ -37,19 +39,36 @@ public class Tarea7A {
         rellenarFicheroMap(mapAsignaturaProfesores);
         rellenarFicheroProfesores(listaProfesores);
         // Busca en la lista si hay alguien que se llame así
-        System.out.println((Utils.buscarPorNombre(listaProfesores,
-                "Maud Brigitte Marie"))?"En la lista hay alguien que se llama así":"En la lista no hay nadie que se llame así");
+        String nombre="Maud Brigitte Marie";
+        System.out.println(listaProfesores.stream().anyMatch(p-> p.getNombre()
+                .equalsIgnoreCase("Maud Brigitte Marie"))?"En la lista hay alguien que se llama así"
+                :"En la lista no hay nadie que se llame así");
+//        System.out.println((Utils.buscarPorNombre(listaProfesores,
+//                "Maud Brigitte Marie"))?"En la lista hay alguien que se llama así":"En la lista no hay nadie que se llame así");
         System.out.println("---------------------------------------------------------------------------------");
         // Cuenta cuantos coordinadores hay en la lista de esa asignatura
-        System.out.println("el numero de coordinadores que hay de esta asignatura es "+ Utils.contarCoordinadoresPorAsignatura(listaProfesores, "Matemáticas P.E.S."));
+        
+        System.out.println("el numero de coordinadores que hay de esta asignatura es "+
+                listaProfesores.stream().filter(p->p.getPuesto().
+                        equalsIgnoreCase("Matemáticas P.E.S.")).count());
+//        System.out.println("el numero de coordinadores que hay de esta asignatura es "+ Utils.contarCoordinadoresPorAsignatura(listaProfesores, "Matemáticas P.E.S."));
         System.out.println("---------------------------------------------------------------------------------");
         //devuelve una lista de profesores ordenada por nombre que tienen la letra pedida en el dni
-        ArrayList<Profesor>listaProfesoresConMismaLetra=Utils.listaProfesoresConMismoDni(listaProfesores, 'A');
-        System.out.println(listaProfesoresConMismaLetra.toString());
+        
+        List<Profesor>listaProfesoresConMismaLetra=listaProfesores.stream().filter(p->p.getDni().contains("A"))
+                .sorted((p1,p2)->p1.getNombre().compareTo(p2.getNombre())).collect(Collectors.toList());
+        listaProfesoresConMismaLetra.stream().forEach(System.out::println);
+//        ArrayList<Profesor>listaProfesoresConMismaLetra=Utils.listaProfesoresConMismoDni(listaProfesores, 'A');
+//        System.out.println(listaProfesoresConMismaLetra.toString());
         System.out.println("---------------------------------------------------------------------------------");
         //El metodo devuelve un ArrrayList ordenado inversamente por el dni de los profesores que han tomado posesion el mismo dia indicado 
-        ArrayList<Profesor>listaProfesoresMismaPosesion=Utils.listaProfesoresMismaPosesion(listaProfesores, LocalDate.of(2020, 9, 1));
-        System.out.println(listaProfesoresMismaPosesion.toString());
+        List<Profesor>listaProfesoresMismaPosesion=listaProfesores.stream().
+                filter(p->p.getFechaInicio().equals(LocalDate.of(2020, 9, 1))).
+                sorted((p1,p2)->p2.getDni().compareTo(p1.getDni())).collect(Collectors.toList());
+        listaProfesoresMismaPosesion.stream().forEach(System.out::println);
+//        ArrayList<Profesor>listaProfesoresMismaPosesion=Utils.listaProfesoresMismaPosesion(listaProfesores, LocalDate.of(2020, 9, 1));
+//        System.out.println(listaProfesoresMismaPosesion.toString());
+
     }
 
     public static void leerFichero(String idFichero, ArrayList<Profesor> listaProfesores) {

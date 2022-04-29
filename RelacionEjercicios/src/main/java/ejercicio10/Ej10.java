@@ -9,7 +9,6 @@ import ejercicio9.Vehiculo;
 import java.io.File;
 import java.util.ArrayList;
 import java.util.Collections;
-import java.util.Comparator;
 import java.util.stream.Stream;
 
 /**
@@ -41,13 +40,11 @@ public class Ej10 {
         Escritura.borrarFicheros("Turismos.csv");
         Escritura.listarFicherosDirectorio("./");
         
+        System.out.println("adadasdasd");
         
+        listaVehiculos.stream().filter(v -> v.getColor().equalsIgnoreCase("Blanco")).distinct().
+                sorted((v1,v2)->v1.getMatricula().compareTo(v2.getMatricula())).forEach(System.out::println);
         
-        Stream<Vehiculo> vehiculosBlancos = listaVehiculos.stream().filter(v -> v.getColor().equalsIgnoreCase("Blanco")).distinct().
-                sorted((v1,v2)->v1.getMatricula().compareTo(v2.getMatricula()));
-        for(Vehiculo aux :listaVehiculos){
-            System.out.println(aux.toString());
-        }
         System.out.println("-------------------");
         listaVehiculos.stream().map(v->v.getMarca()).distinct().forEach(System.out::println);
         
