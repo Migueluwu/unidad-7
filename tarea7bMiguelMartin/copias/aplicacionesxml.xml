@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<listaApps>
+    <listaApps>
+        <App>
+            <codigo>0</codigo>
+            <descripcion>app de calculadora</descripcion>
+            <nombre>app0V</nombre>
+            <numDescargas>47680</numDescargas>
+            <tamanyo>145.36394145855158</tamanyo>
+        </App>
+        <App>
+            <codigo>1</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app1c</nombre>
+            <numDescargas>35890</numDescargas>
+            <tamanyo>753.2515344455685</tamanyo>
+        </App>
+        <App>
+            <codigo>2</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app2Z</nombre>
+            <numDescargas>295</numDescargas>
+            <tamanyo>794.2840791844309</tamanyo>
+        </App>
+        <App>
+            <codigo>3</codigo>
+            <descripcion>app de juego</descripcion>
+            <nombre>app3h</nombre>
+            <numDescargas>48839</numDescargas>
+            <tamanyo>217.62756101130026</tamanyo>
+        </App>
+        <App>
+            <codigo>4</codigo>
+            <descripcion>app de juego</descripcion>
+            <nombre>app4y</nombre>
+            <numDescargas>42952</numDescargas>
+            <tamanyo>586.1524644575625</tamanyo>
+        </App>
+        <App>
+            <codigo>5</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app5b</nombre>
+            <numDescargas>44551</numDescargas>
+            <tamanyo>159.99165197343143</tamanyo>
+        </App>
+        <App>
+            <codigo>6</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app6R</nombre>
+            <numDescargas>24783</numDescargas>
+            <tamanyo>389.5862596872791</tamanyo>
+        </App>
+        <App>
+            <codigo>7</codigo>
+            <descripcion>app de redes sociales</descripcion>
+            <nombre>app7D</nombre>
+            <numDescargas>7363</numDescargas>
+            <tamanyo>168.3002037603381</tamanyo>
+        </App>
+        <App>
+            <codigo>8</codigo>
+            <descripcion>app de citas</descripcion>
+            <nombre>app8U</nombre>
+            <numDescargas>48903</numDescargas>
+            <tamanyo>699.9328806882926</tamanyo>
+        </App>
+        <App>
+            <codigo>9</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app9g</nombre>
+            <numDescargas>5303</numDescargas>
+            <tamanyo>275.7426908856324</tamanyo>
+        </App>
+        <App>
+            <codigo>10</codigo>
+            <descripcion>app de contactos</descripcion>
+            <nombre>app10l</nombre>
+            <numDescargas>24639</numDescargas>
+            <tamanyo>287.8371956889062</tamanyo>
+        </App>
+        <App>
+            <codigo>11</codigo>
+            <descripcion>app de redes sociales</descripcion>
+            <nombre>app11e</nombre>
+            <numDescargas>42837</numDescargas>
+            <tamanyo>323.5077295904515</tamanyo>
+        </App>
+        <App>
+            <codigo>12</codigo>
+            <descripcion>app de contactos</descripcion>
+            <nombre>app12T</nombre>
+            <numDescargas>16159</numDescargas>
+            <tamanyo>913.8845750283556</tamanyo>
+        </App>
+        <App>
+            <codigo>13</codigo>
+            <descripcion>app de juego</descripcion>
+            <nombre>app13I</nombre>
+            <numDescargas>4877</numDescargas>
+            <tamanyo>532.1733965820181</tamanyo>
+        </App>
+        <App>
+            <codigo>14</codigo>
+            <descripcion>app de musica</descripcion>
+            <nombre>app14j</nombre>
+            <numDescargas>21136</numDescargas>
+            <tamanyo>437.82517045865836</tamanyo>
+        </App>
+        <App>
+            <codigo>15</codigo>
+            <descripcion>app de edicion</descripcion>
+            <nombre>app15k</nombre>
+            <numDescargas>48584</numDescargas>
+            <tamanyo>632.1588187708135</tamanyo>
+        </App>
+        <App>
+            <codigo>16</codigo>
+            <descripcion>app de redes sociales</descripcion>
+            <nombre>app16x</nombre>
+            <numDescargas>44888</numDescargas>
+            <tamanyo>363.05787892937633</tamanyo>
+        </App>
+        <App>
+            <codigo>17</codigo>
+            <descripcion>app de citas</descripcion>
+            <nombre>app17I</nombre>
+            <numDescargas>13313</numDescargas>
+            <tamanyo>336.0269736003157</tamanyo>
+        </App>
+        <App>
+            <codigo>18</codigo>
+            <descripcion>app de calculadora</descripcion>
+            <nombre>app18k</nombre>
+            <numDescargas>44486</numDescargas>
+            <tamanyo>244.40476106678227</tamanyo>
+        </App>
+        <App>
+            <codigo>19</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app19U</nombre>
+            <numDescargas>2766</numDescargas>
+            <tamanyo>642.4520502020517</tamanyo>
+        </App>
+        <App>
+            <codigo>20</codigo>
+            <descripcion>app de edicion</descripcion>
+            <nombre>app20w</nombre>
+            <numDescargas>46381</numDescargas>
+            <tamanyo>607.266705559447</tamanyo>
+        </App>
+        <App>
+            <codigo>21</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app21r</nombre>
+            <numDescargas>34169</numDescargas>
+            <tamanyo>956.1050021830292</tamanyo>
+        </App>
+        <App>
+            <codigo>22</codigo>
+            <descripcion>app de redes sociales</descripcion>
+            <nombre>app22e</nombre>
+            <numDescargas>6630</numDescargas>
+            <tamanyo>650.7006588635469</tamanyo>
+        </App>
+        <App>
+            <codigo>23</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app23j</nombre>
+            <numDescargas>23286</numDescargas>
+            <tamanyo>395.222314694895</tamanyo>
+        </App>
+        <App>
+            <codigo>24</codigo>
+            <descripcion>app de juego</descripcion>
+            <nombre>app24r</nombre>
+            <numDescargas>10191</numDescargas>
+            <tamanyo>680.746513158331</tamanyo>
+        </App>
+        <App>
+            <codigo>25</codigo>
+            <descripcion>app de citas</descripcion>
+            <nombre>app25u</nombre>
+            <numDescargas>11446</numDescargas>
+            <tamanyo>756.6006160520034</tamanyo>
+        </App>
+        <App>
+            <codigo>26</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app26o</nombre>
+            <numDescargas>27978</numDescargas>
+            <tamanyo>712.6042082056622</tamanyo>
+        </App>
+        <App>
+            <codigo>27</codigo>
+            <descripcion>app de citas</descripcion>
+            <nombre>app27W</nombre>
+            <numDescargas>18570</numDescargas>
+            <tamanyo>919.6966626508005</tamanyo>
+        </App>
+        <App>
+            <codigo>28</codigo>
+            <descripcion>app de calculadora</descripcion>
+            <nombre>app28U</nombre>
+            <numDescargas>32652</numDescargas>
+            <tamanyo>334.1216422474369</tamanyo>
+        </App>
+        <App>
+            <codigo>29</codigo>
+            <descripcion>app de musica</descripcion>
+            <nombre>app29Y</nombre>
+            <numDescargas>22173</numDescargas>
+            <tamanyo>440.15377652441765</tamanyo>
+        </App>
+        <App>
+            <codigo>30</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app30k</nombre>
+            <numDescargas>19056</numDescargas>
+            <tamanyo>596.7708163461408</tamanyo>
+        </App>
+        <App>
+            <codigo>31</codigo>
+            <descripcion>app de redes sociales</descripcion>
+            <nombre>app31n</nombre>
+            <numDescargas>49262</numDescargas>
+            <tamanyo>427.74599521063203</tamanyo>
+        </App>
+        <App>
+            <codigo>32</codigo>
+            <descripcion>app de juego</descripcion>
+            <nombre>app32G</nombre>
+            <numDescargas>34996</numDescargas>
+            <tamanyo>367.40688478516455</tamanyo>
+        </App>
+        <App>
+            <codigo>33</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app33d</nombre>
+            <numDescargas>46950</numDescargas>
+            <tamanyo>935.996041897284</tamanyo>
+        </App>
+        <App>
+            <codigo>34</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app34V</nombre>
+            <numDescargas>1478</numDescargas>
+            <tamanyo>245.95448237784967</tamanyo>
+        </App>
+        <App>
+            <codigo>35</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app35x</nombre>
+            <numDescargas>6767</numDescargas>
+            <tamanyo>947.263793693605</tamanyo>
+        </App>
+        <App>
+            <codigo>36</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app36j</nombre>
+            <numDescargas>49501</numDescargas>
+            <tamanyo>222.7335354301548</tamanyo>
+        </App>
+        <App>
+            <codigo>37</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app37S</nombre>
+            <numDescargas>981</numDescargas>
+            <tamanyo>896.4959077050962</tamanyo>
+        </App>
+        <App>
+            <codigo>38</codigo>
+            <descripcion>app de citas</descripcion>
+            <nombre>app38Q</nombre>
+            <numDescargas>47436</numDescargas>
+            <tamanyo>324.30116118215744</tamanyo>
+        </App>
+        <App>
+            <codigo>39</codigo>
+            <descripcion>app de imagenes</descripcion>
+            <nombre>app39s</nombre>
+            <numDescargas>31422</numDescargas>
+            <tamanyo>229.2710808467361</tamanyo>
+        </App>
+        <App>
+            <codigo>40</codigo>
+            <descripcion>app de contactos</descripcion>
+            <nombre>app40V</nombre>
+            <numDescargas>40627</numDescargas>
+            <tamanyo>454.16590736068497</tamanyo>
+        </App>
+        <App>
+            <codigo>41</codigo>
+            <descripcion>app de edicion</descripcion>
+            <nombre>app41R</nombre>
+            <numDescargas>9784</numDescargas>
+            <tamanyo>874.1835663787558</tamanyo>
+        </App>
+        <App>
+            <codigo>42</codigo>
+            <descripcion>app de citas</descripcion>
+            <nombre>app42H</nombre>
+            <numDescargas>8990</numDescargas>
+            <tamanyo>722.632278001915</tamanyo>
+        </App>
+        <App>
+            <codigo>43</codigo>
+            <descripcion>app de juego</descripcion>
+            <nombre>app43y</nombre>
+            <numDescargas>14733</numDescargas>
+            <tamanyo>608.6297730732515</tamanyo>
+        </App>
+        <App>
+            <codigo>44</codigo>
+            <descripcion>app de edicion</descripcion>
+            <nombre>app44u</nombre>
+            <numDescargas>21198</numDescargas>
+            <tamanyo>606.9363758145098</tamanyo>
+        </App>
+        <App>
+            <codigo>45</codigo>
+            <descripcion>app de citas</descripcion>
+            <nombre>app45E</nombre>
+            <numDescargas>20886</numDescargas>
+            <tamanyo>456.0746759536512</tamanyo>
+        </App>
+        <App>
+            <codigo>46</codigo>
+            <descripcion>app de calculadora</descripcion>
+            <nombre>app46L</nombre>
+            <numDescargas>39134</numDescargas>
+            <tamanyo>604.2338520794625</tamanyo>
+        </App>
+        <App>
+            <codigo>47</codigo>
+            <descripcion>app de redes sociales</descripcion>
+            <nombre>app47M</nombre>
+            <numDescargas>42181</numDescargas>
+            <tamanyo>585.8868958960876</tamanyo>
+        </App>
+        <App>
+            <codigo>48</codigo>
+            <descripcion>app de calendario</descripcion>
+            <nombre>app48W</nombre>
+            <numDescargas>36636</numDescargas>
+            <tamanyo>713.3203836934907</tamanyo>
+        </App>
+        <App>
+            <codigo>49</codigo>
+            <descripcion>app de contactos</descripcion>
+            <nombre>app49N</nombre>
+            <numDescargas>27229</numDescargas>
+            <tamanyo>845.2800130841362</tamanyo>
+        </App>
+    </listaApps>
+</listaApps>

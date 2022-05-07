@@ -1,0 +1,1 @@
+10;app10N;app de calculadora;968.512358764566;21179

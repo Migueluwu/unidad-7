@@ -1,0 +1,15 @@
+[ {
+  "curso" : "3ESOB",
+  "profesor" : "RTO",
+  "asignatura" : "TUTPM",
+  "aula" : "525",
+  "diaSemana" : 3,
+  "horaDia" : 3
+}, {
+  "curso" : "3ESOC",
+  "profesor" : "RTO",
+  "asignatura" : "TUTPM",
+  "aula" : "525",
+  "diaSemana" : 3,
+  "horaDia" : 3
+} ]
