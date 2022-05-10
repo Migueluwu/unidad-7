@@ -7,6 +7,7 @@ package com.mycompany.tarea7cmiguelmartin;
 
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.Scanner;
 import java.util.Set;
 import java.util.TreeSet;
@@ -28,12 +29,26 @@ public class Horario {
         
         Set<String> listaGrupos=new TreeSet<>();
         Set<String>listaProfesores=new TreeSet<>();
+        //ordenarLista
+        
+        OrdenarLista(horario);
+        
+        for(HoraEscolar aux:horario){
+            System.out.println(aux.toString());
+        }
+        
+        
         rellenarListaGrupos(listaGrupos, horario);
         rellenarListaProfesores(listaProfesores, horario);
         
         Consultar(listaProfesores, listaGrupos, horario);  
         
         
+    }
+    private static void OrdenarLista(ArrayList<HoraEscolar>horario){
+        Comparator<HoraEscolar> criterioDia = (h1,h2) -> Integer.compare(h1.getDiaSemana(), h2.getDiaSemana());
+        Comparator<HoraEscolar> criterioHora = (h1,h2) -> Integer.compare(h1.getHoraDia(), h2.getHoraDia());
+        horario.sort(criterioDia.thenComparing(criterioHora));
     }
     
     private static void Consultar(Set<String> listaProfesores,Set<String> listaGrupos, ArrayList<HoraEscolar>horario ) throws IOException{

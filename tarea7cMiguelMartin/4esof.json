@@ -1,0 +1,260 @@
+[ {
+  "curso" : "4ESOF",
+  "profesor" : "HCG",
+  "asignatura" : "MAP",
+  "aula" : "514",
+  "diaSemana" : 1,
+  "horaDia" : 1
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "ERC",
+  "asignatura" : "ING",
+  "aula" : "514",
+  "diaSemana" : 1,
+  "horaDia" : 2
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "RCG",
+  "asignatura" : "EF",
+  "aula" : "P-3",
+  "diaSemana" : 1,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "JRM",
+  "asignatura" : "GeH",
+  "aula" : "514",
+  "diaSemana" : 1,
+  "horaDia" : 5
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MGC",
+  "asignatura" : "TIC",
+  "aula" : "TIC3",
+  "diaSemana" : 1,
+  "horaDia" : 6
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MGG",
+  "asignatura" : "LCL",
+  "aula" : "514",
+  "diaSemana" : 1,
+  "horaDia" : 7
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "ERC",
+  "asignatura" : "ING",
+  "aula" : "TIC3",
+  "diaSemana" : 2,
+  "horaDia" : 1
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "ARC",
+  "asignatura" : "MUS",
+  "aula" : "TIC2",
+  "diaSemana" : 2,
+  "horaDia" : 2
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MPN",
+  "asignatura" : "EPVA",
+  "aula" : "415",
+  "diaSemana" : 2,
+  "horaDia" : 2
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "FGA",
+  "asignatura" : "FIL",
+  "aula" : "118",
+  "diaSemana" : 2,
+  "horaDia" : 2
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "HCG",
+  "asignatura" : "MAP",
+  "aula" : "514",
+  "diaSemana" : 2,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "JRM",
+  "asignatura" : "GeH",
+  "aula" : "514",
+  "diaSemana" : 2,
+  "horaDia" : 5
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "JCM",
+  "asignatura" : "IAEYE",
+  "aula" : "514",
+  "diaSemana" : 2,
+  "horaDia" : 6
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "CJG",
+  "asignatura" : "TEC",
+  "aula" : "510",
+  "diaSemana" : 2,
+  "horaDia" : 7
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MGC",
+  "asignatura" : "TIC",
+  "aula" : "TIC3",
+  "diaSemana" : 3,
+  "horaDia" : 1
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "CJG",
+  "asignatura" : "TEC",
+  "aula" : "514",
+  "diaSemana" : 3,
+  "horaDia" : 2
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "ARC",
+  "asignatura" : "MUS",
+  "aula" : "4S",
+  "diaSemana" : 3,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MPN",
+  "asignatura" : "EPVA",
+  "aula" : "415",
+  "diaSemana" : 3,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "FGA",
+  "asignatura" : "FIL",
+  "aula" : "118",
+  "diaSemana" : 3,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "HCG",
+  "asignatura" : "MAP",
+  "aula" : "514",
+  "diaSemana" : 3,
+  "horaDia" : 5
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MGG",
+  "asignatura" : "LCL",
+  "aula" : "514",
+  "diaSemana" : 3,
+  "horaDia" : 6
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "JCM",
+  "asignatura" : "IAEYE",
+  "aula" : "514",
+  "diaSemana" : 3,
+  "horaDia" : 7
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "HCG",
+  "asignatura" : "MAP",
+  "aula" : "514",
+  "diaSemana" : 4,
+  "horaDia" : 1
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "JCM",
+  "asignatura" : "IAEYE",
+  "aula" : "514",
+  "diaSemana" : 4,
+  "horaDia" : 2
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "ARC",
+  "asignatura" : "MUS",
+  "aula" : "4S",
+  "diaSemana" : 4,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MPN",
+  "asignatura" : "EPVA",
+  "aula" : "415",
+  "diaSemana" : 4,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "FGA",
+  "asignatura" : "FIL",
+  "aula" : "118",
+  "diaSemana" : 4,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "JCM",
+  "asignatura" : "TUT",
+  "aula" : "514",
+  "diaSemana" : 4,
+  "horaDia" : 5
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "ERC",
+  "asignatura" : "ING",
+  "aula" : "514",
+  "diaSemana" : 4,
+  "horaDia" : 6
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MGC",
+  "asignatura" : "TIC",
+  "aula" : "TIC3",
+  "diaSemana" : 4,
+  "horaDia" : 7
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "RCG",
+  "asignatura" : "EF",
+  "aula" : "5S",
+  "diaSemana" : 5,
+  "horaDia" : 1
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "MGG",
+  "asignatura" : "LCL",
+  "aula" : "514",
+  "diaSemana" : 5,
+  "horaDia" : 2
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "CJG",
+  "asignatura" : "TEC",
+  "aula" : "514",
+  "diaSemana" : 5,
+  "horaDia" : 3
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "AGZ",
+  "asignatura" : "REL",
+  "aula" : "514",
+  "diaSemana" : 5,
+  "horaDia" : 5
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "FMM",
+  "asignatura" : "VE",
+  "aula" : "409",
+  "diaSemana" : 5,
+  "horaDia" : 5
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "ERC",
+  "asignatura" : "ING",
+  "aula" : "514",
+  "diaSemana" : 5,
+  "horaDia" : 6
+}, {
+  "curso" : "4ESOF",
+  "profesor" : "JRM",
+  "asignatura" : "GeH",
+  "aula" : "514",
+  "diaSemana" : 5,
+  "horaDia" : 7
+} ]
