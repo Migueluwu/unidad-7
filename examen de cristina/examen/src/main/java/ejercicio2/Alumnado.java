@@ -41,7 +41,7 @@ public class Alumnado implements Comparable<Alumnado> {
 
     @Override
     public String toString() {
-        String texto="";
+        String texto;
         texto=nombre+"\n";
         
         for(String incial: notas.keySet()){
